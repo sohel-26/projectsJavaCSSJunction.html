@@ -1,0 +1,100 @@
+h1
+    { position: absolute;
+        top: 210px;
+        left: 250px;
+            color: #030303;}
+
+ div { ;
+    position: absolute;
+    border-radius: 60%;
+    top: 200px;
+    left: 200px;
+    height: 100px;
+ width: 100px;
+background-color: beige;
+    border: 2px solid black;
+transition-duration: 3s;}
+    div:hover  {
+        background-color: rgb(209, 255, 5);
+       transform: translatey(300px);
+       transition-duration: 1s;
+    transition-timing-function:ease-out 3s ;
+       color: blanchedalmond;
+    }
+h3
+{ ;
+    position: absolute;
+    border-radius: 60%;
+    top: 180px;
+    left: 300px;
+    height: 100px;
+ width: 100px;
+background-color: beige;
+    border: 2px solid black;
+transition-duration: 3s;}
+    h3:hover  {
+        background-color:rgb(11, 247, 90);
+       transform: translatey(300px);
+    
+       transition-duration: 1s;
+       color: blanchedalmond;
+    }
+h4{
+    position: absolute;
+    border-radius: 60%;
+    top: 180px;
+    left: 400px;
+    height: 100px;
+ width: 100px;
+background-color: beige;
+    border: 2px solid black;
+transition-duration: 3s;
+}
+h4:hover{
+    background-color: #f083ea;
+    transform: translatey(300px);
+ 
+    transition-duration: 1s;
+    color: blanchedalmond;
+}
+h5{position: absolute;
+    border-radius: 60%;
+    top: 180px;
+    left: 500px;
+    height: 100px;
+ width: 100px;
+background-color: beige;
+    border: 2px solid black;
+transition-duration: 3s;
+
+}
+h5:hover{
+    background-color: rgb(224, 133, 80);
+    transform: translatey(300px);
+ 
+    transition-duration: 1s;
+    color: blanchedalmond;
+}
+h2{
+    position: absolute ;
+    top: 50px;
+    left: 500px;
+    position: absolute;
+ 
+    height: 70px;
+ width: 270px;
+background-color: rgb(236, 236, 161);
+    border: 4px solid black;
+transition-duration: 3s;
+}
+h2:hover:before{
+
+    color: red;
+  
+
+content: 'uggh NOT HERE.......';
+}
+h2:hover{
+    border: dotted;
+    border-color: rgb(255, 0, 0);
+}
